@@ -15,8 +15,8 @@ public class Clinic {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     protected int clinicId;
-    protected String Name;
-    protected String Location;
+    protected String name;
+    protected String clinicAddress;
     protected String contactNumber;
     protected String emailAddress;
     protected String password;
